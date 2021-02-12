@@ -73,7 +73,7 @@ body {
   font-size: 2rem;
   font-family: "Blinker", sans-serif;
   font-weight: bold;
-  padding: 0.75em 2em;
+  padding: 0.5em 2em;
   background-color: #05cbe9;
   border: none;
   -ms-flex-negative: 0;
@@ -90,5 +90,32 @@ body {
 .subcontainer__time-read span {
   font-weight: 700;
   font-size: 2.5rem;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 700px;
+    margin: 3em auto;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+  }
+  .image {
+    width: 30%;
+    max-height: 100%;
+  }
+  .subcontainer__title {
+    font-size: 3.6rem;
+  }
+  .subcontainer__description {
+    font-size: 1.8rem;
+  }
+  .subcontainer__time-read {
+    font-size: 1.8rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */
