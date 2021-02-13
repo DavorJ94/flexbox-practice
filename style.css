@@ -80,6 +80,13 @@ body {
       flex-shrink: 0;
 }
 
+.subcontainer__read-more:hover,
+.subcontainer__read-more:focus {
+  background-color: yellow;
+  outline: none;
+  cursor: pointer;
+}
+
 .subcontainer__time-read {
   margin: 0;
   font-size: 1.6rem;
